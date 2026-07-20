@@ -40,7 +40,7 @@ lines.forEach((text, index)=>{
 
 });
 
-const targetDate = new Date("August 3, 2026 00:00:00").getTime();
+const targetDate = new Date(Date.now() + 4000).getTime();
 
 
 function updateCountdown() {
